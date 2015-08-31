@@ -14,6 +14,8 @@
 		56511AAF1B6D90B300B72421 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56511AAE1B6D90B300B72421 /* Images.xcassets */; };
 		56511AB21B6D90B300B72421 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56511AB01B6D90B300B72421 /* LaunchScreen.xib */; };
 		56511ABE1B6D90B300B72421 /* TabSampleScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56511ABD1B6D90B300B72421 /* TabSampleScrollTests.swift */; };
+		56511AC91B6DD5C700B72421 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56511AC71B6DD5C700B72421 /* CustomCell.xib */; };
+		56511ACA1B6DD5C700B72421 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56511AC81B6DD5C700B72421 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		56511AB71B6D90B300B72421 /* TabSampleScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabSampleScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56511ABC1B6D90B300B72421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56511ABD1B6D90B300B72421 /* TabSampleScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSampleScrollTests.swift; sourceTree = "<group>"; };
+		56511AC71B6DD5C700B72421 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		56511AC81B6DD5C700B72421 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		56511AA21B6D90B300B72421 /* TabSampleScroll */ = {
 			isa = PBXGroup;
 			children = (
+				56511AC71B6DD5C700B72421 /* CustomCell.xib */,
+				56511AC81B6DD5C700B72421 /* CustomCell.swift */,
 				56511AA51B6D90B300B72421 /* AppDelegate.swift */,
 				56511AA71B6D90B300B72421 /* FirstViewController.swift */,
 				56511AA91B6D90B300B72421 /* SecondViewController.swift */,
@@ -159,6 +165,8 @@
 		56511A981B6D90B300B72421 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "平塚 俊輔";
 				TargetAttributes = {
@@ -197,6 +205,7 @@
 			files = (
 				56511AAD1B6D90B300B72421 /* Main.storyboard in Resources */,
 				56511AB21B6D90B300B72421 /* LaunchScreen.xib in Resources */,
+				56511AC91B6DD5C700B72421 /* CustomCell.xib in Resources */,
 				56511AAF1B6D90B300B72421 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +226,7 @@
 			files = (
 				56511AAA1B6D90B300B72421 /* SecondViewController.swift in Sources */,
 				56511AA61B6D90B300B72421 /* AppDelegate.swift in Sources */,
+				56511ACA1B6DD5C700B72421 /* CustomCell.swift in Sources */,
 				56511AA81B6D90B300B72421 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +423,7 @@
 				56511AC31B6D90B300B72421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56511AC41B6D90B300B72421 /* Build configuration list for PBXNativeTarget "TabSampleScrollTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +432,7 @@
 				56511AC61B6D90B300B72421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
